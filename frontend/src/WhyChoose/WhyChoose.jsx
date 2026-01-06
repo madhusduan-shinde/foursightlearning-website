@@ -1,6 +1,6 @@
 import React from "react";
 import "../WhyChoose/WhyChoose.css";
-import teamImage from "../images/audience.jpg";
+import img8 from "../images/9.jpg";
 import useScrollAnimation from "../useScrollAnimation";
 
 const WhyChoose = () => {
@@ -57,7 +57,7 @@ const WhyChoose = () => {
         {/* Right Side */}
         <div className="whychoose-right animate-fade-left">
           <div className="whychoose-image-container animate-zoom-in">
-            <img src={teamImage} alt="Why 4Sight Learning" />
+            <img src={img8} alt="Why 4Sight Learning" />
           </div>
         </div>
       </div>

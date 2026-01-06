@@ -1,6 +1,8 @@
 import React from "react";
 import "./About.css";
 import useScrollAnimation from "../useScrollAnimation";
+import img6 from "../images/6.webp";
+import img7 from "../images/7.jpg";
 
 const About = () => {
   useScrollAnimation();
@@ -62,7 +64,7 @@ const About = () => {
                 style={{ animationDelay: "0.2s" }}
               >
                 <img
-                  src="https://i.ibb.co/QP6Nmpf/image-1-about.jpg"
+                  src={img6}
                   alt="Professional training and learning"
                 />
               </figure>
@@ -71,7 +73,7 @@ const About = () => {
                 style={{ animationDelay: "0.4s" }}
               >
                 <img
-                  src="https://i.ibb.co/JvN0NVB/image-2-about.jpg"
+                  src={img7}
                   alt="Career development and consultancy"
                 />
               </figure>

@@ -1,22 +1,25 @@
 import React, { useState, useEffect } from "react";
 import "../Hero/CarouselHero.css";
 import { FaWhatsapp, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import img1 from "../images/1.avif";
+import img2 from "../images/2.jpg";
+import img3 from "../images/3.avif";
 
 const slidesData = [
   {
-    img: "https://picsum.photos/id/1018/1200/600",
+    img: img1,
     title: "Explore the Wilderness",
     text: "Discover breathtaking landscapes.",
     button: "View Gallery",
   },
   {
-    img: "https://picsum.photos/id/1060/1200/600",
+    img: img2,
     title: "Future of Technology",
     text: "Innovations that change the world.",
     button: "Learn More",
   },
   {
-    img: "https://picsum.photos/id/1070/1200/600",
+    img: img3,
     title: "Creative Spaces",
     text: "Find your next inspiration.",
     button: "Get Started",
