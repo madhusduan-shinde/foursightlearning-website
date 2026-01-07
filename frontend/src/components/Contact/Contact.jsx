@@ -63,6 +63,35 @@ const Contact = () => {
             </button>
           </div>
         </form>
+
+        {/* Map and Social Section */}
+        <div className="contact-info">
+          <div className="info-content">
+            <h3 className="info-title">Reach us at</h3>
+            <p className="info-text">
+              Have a question or feedback? Fill out the form below, and we'll get back to you within 24 hours.
+            </p>
+
+            <div className="map-container">
+              <iframe
+                title="Foursight Learning Location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231.06172371456339!2d74.8584265!3d12.879822700000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba35a3a4c382bc9%3A0xdd2db63f146b209d!2sCEOL%20-%20Incubation%20Centre%20Mangalore!5e1!3m2!1sen!2sin!4v1767775738907!5m2!1sen!2sin"
+                width="100%"
+                height="300"
+                style={{ border: 0, borderRadius: "8px" }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+
+            <div className="address">
+              <p className="address-text">
+                <strong>Address:</strong> KUDCEMP Building, 2nd Floor, MCC Commercial Complex, Mallikatte, Kadri, Mangaluru, Karnataka - 575002
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

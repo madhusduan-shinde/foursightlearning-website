@@ -39,8 +39,9 @@ const Header = () => {
       <div className="header-container">
         {/* Logo */}
         <div className="logo">
-          <RouterLink to="/" onClick={closeMenu}>
-            <img src={logo} alt="Foursight Logo" />
+          <RouterLink to="/" onClick={closeMenu} className="logo-wrapper">
+            <img src={logo} alt="FourSight Learning Logo" />
+            <span className="logo-text">FourSight Learning</span>
           </RouterLink>
         </div>
 

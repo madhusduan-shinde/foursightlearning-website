@@ -29,9 +29,14 @@ const Footer = () => {
       }}
     >
       <div className="footer-content">
+        {/* Company Name */}
+        <h2 className="company-name">
+          FourSight Learning Private Limited
+        </h2>
+
         {/* Address */}
         <h3 className="footer-title">
-          2nd Floor, City Corporation Commercial Complex, Mallikatte, Kadri, Mangaluru - 575002
+          KUDCEMP Building, 2nd Floor, MCC Commercial Complex, Mallikatte, Kadri, Mangaluru, Karnataka - 575002
         </h3>
 
         {/* Contact Info */}
@@ -74,14 +79,6 @@ const Footer = () => {
         </div>
 
         <hr className="footer-divider" />
-
-        {/* Footer Links (smooth scroll anchors) */}
-        <nav className="footer-links" aria-label="Footer navigation">
-          <a href="#hero-section" onClick={(e) => handleAnchorClick(e, "hero-section")}>Home</a>
-          <a href="#about-company-section" onClick={(e) => handleAnchorClick(e, "about-company-section")}>About</a>
-          <a href="#services-section" onClick={(e) => handleAnchorClick(e, "services-section")}>Services</a>
-          <a href="#contact-section" onClick={(e) => handleAnchorClick(e, "contact-section")}>Contact</a>
-        </nav>
 
         {/* Bottom Text */}
         <div className="footer-bottom">

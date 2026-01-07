@@ -97,6 +97,21 @@
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+}
+
+.logo-text {
+  font-size: 26px;
+  font-weight: 700;
+  color: #0aa79d; /* matches your logo tone */
+  white-space: nowrap;
+  display: none; /* hidden on small & medium screens */
+}
+
 /* Responsive Nav */
 @media screen and (max-width: 768px) {
   .menu-toggle {
@@ -129,5 +144,11 @@
     flex-direction: column;
     gap: 20px;
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .logo-text {
+    display: inline-block;
   }
 }

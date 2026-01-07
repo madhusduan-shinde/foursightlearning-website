@@ -35,7 +35,7 @@ const WhyChoose = () => {
         {/* Left Side */}
         <div className="whychoose-left animate-fade-right">
           <h6 className="whychoose-subtitle animate-fade-up">You Will Love It</h6>
-          <h2 className="whychoose-title animate-fade-up">Why 4Sight Learning?</h2>
+          <h2 className="whychoose-title animate-fade-up">Why FourSight Learning?</h2>
 
           <div className="whychoose-points">
             {points.map((point, index) => (
@@ -57,7 +57,7 @@ const WhyChoose = () => {
         {/* Right Side */}
         <div className="whychoose-right animate-fade-left">
           <div className="whychoose-image-container animate-zoom-in">
-            <img src={img8} alt="Why 4Sight Learning" />
+            <img src={img8} alt="Why FourSight Learning" />
           </div>
         </div>
       </div>

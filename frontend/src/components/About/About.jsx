@@ -27,7 +27,7 @@ const About = () => {
                 className="text animate-fade-up"
                 style={{ animationDelay: "0.2s" }}
               >
-                FourSight Learning Private Limited is a professional organization providing
+                <strong>FourSight Learning Private Limited</strong> is a professional organization providing
                 training, workshops, skill development, and consultancy services globally.
                 We cater to educational institutions, corporates, government bodies, and
                 organizations worldwide with customized learning solutions.
