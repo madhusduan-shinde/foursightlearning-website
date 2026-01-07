@@ -1,7 +1,7 @@
 import React from "react";
-import "../WhyChoose/WhyChoose.css";
-import img8 from "../images/13.jpeg";
-import useScrollAnimation from "../useScrollAnimation";
+import "./WhyChoose.css";
+import img8 from "../../images/13.jpeg";
+import useScrollAnimation from "../../useScrollAnimation";
 
 const WhyChoose = () => {
   useScrollAnimation(); // activate scroll animations

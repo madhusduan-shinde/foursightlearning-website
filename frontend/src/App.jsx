@@ -1,21 +1,21 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Layout from "./Layout/Layout";
+import Layout from "./components/Layout/Layout"
 
 // Sections
-import Hero from "./Hero/CarouselHero";
-import About from "./About/About";
-import WhyChoose from "./WhyChoose/WhyChoose";
-import EdgeInsights from "./WhyChoose/EdgeInsights";
-import Team from "./Team/Team";
-import Service from "./Services/Service";
-import Contact from "./Contact/Contact";
+import Hero from "./components/Hero/CarouselHero";
+import About from "./components/About/About";
+import WhyChoose from "./components/WhyChoose/WhyChoose";
+import EdgeInsights from "./components/WhyChoose/EdgeInsights";
+import Team from "./components/Team/Team";
+import Service from "./components/Services/Service";
+import Contact from "./components/Contact/Contact";
 
 // Service Pages
-import Education from "./Services/pages/Education";
-import Business from "./Services/pages/Business";
-import Corporate from "./Services/pages/Corporate";
-import Government from "./Services/pages/Government";
+import Education from "./components/Services/pages/Education";
+import Business from "./components/Services/pages/Business";
+import Corporate from "./components/Services/pages/Corporate";
+import Government from "./components/Services/pages/Government";
 
 function App() {
   return (

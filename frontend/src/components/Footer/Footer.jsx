@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import bgImage from "../images/BgImage.avif";
+import bgImage from "../../images/BgImage.avif";
 import { FaWhatsapp, FaEnvelope, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {

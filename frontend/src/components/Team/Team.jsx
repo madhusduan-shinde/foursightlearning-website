@@ -7,10 +7,10 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 
-import Arun from "../images/Arun Peter.jpg";
-import Deepak from "../images/Deepak Raj.jpg";
-import Deeraj from "../images/Deeraj B.jpg";
-import Madhu from "../images/Madhusudan.jpg";
+import Arun from "../../images/Arun Peter.jpg";
+import Deepak from "../../images/Deepak Raj.jpg";
+import Deeraj from "../../images/Deeraj B.jpg";
+import Madhu from "../../images/Madhusudan.jpg";
 
 const Team = () => {
   const teamMembers = [

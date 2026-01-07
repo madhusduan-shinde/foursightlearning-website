@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import "./Corporate.css";
-import roomImage from "../../images/CoperateSector.avif";
+import roomImage from "../../../images/CoperateSector.avif";
 
 // ✅ Section animation (Top → Down)
 const fadeInDown = {

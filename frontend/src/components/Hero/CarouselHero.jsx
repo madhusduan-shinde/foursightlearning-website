@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "../Hero/CarouselHero.css";
 import { FaWhatsapp, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import img1 from "../images/1.avif";
-import img2 from "../images/2.jpg";
-import img3 from "../images/3.avif";
+import img1 from "../../images/1.avif";
+import img2 from "../../images/2.jpg";
+import img3 from "../../images/3.avif";
 
 const slidesData = [
   {

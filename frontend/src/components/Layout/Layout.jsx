@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Outlet, useLocation } from "react-router-dom";
 import AOS from "aos/dist/aos"; // Vite-compatible import
 import "aos/dist/aos.css";
-import Header from "../components/Header/Header";
+import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import "./FsLayout.css";
 

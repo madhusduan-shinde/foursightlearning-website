@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import "./Corporate.css";
-import roomImage from "../../images/GovernmentSector.avif";
+import roomImage from "../../../images/GovernmentSector.avif";
 
 const fadeInDown = {
   hidden: { opacity: 0, y: 100 },

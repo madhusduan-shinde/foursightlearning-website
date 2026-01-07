@@ -1,7 +1,7 @@
 import React from "react";
 import "../WhyChoose/EdgeInsights.css";
 import { FaLightbulb, FaChartLine } from "react-icons/fa";
-import useScrollAnimation from "../useScrollAnimation"
+import useScrollAnimation from "../../useScrollAnimation"
 
 const EdgeInsights = () => {
   useScrollAnimation(); // activate scroll animations
