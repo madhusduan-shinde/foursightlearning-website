@@ -27,31 +27,28 @@ const About = () => {
                 className="text animate-fade-up"
                 style={{ animationDelay: "0.2s" }}
               >
-                FourSight Learning Private Limited is a professional learning and
-                consulting organization dedicated to delivering high-quality
-                training, skill development, and educational consultancy services.
-                We work with educational institutions, corporates, and organizations
-                to transform knowledge into practical, career-oriented outcomes.
+                FourSight Learning Private Limited is a professional organization providing
+                training, workshops, skill development, and consultancy services globally.
+                We cater to educational institutions, corporates, government bodies, and
+                organizations worldwide with customized learning solutions.
               </div>
 
               <div
                 className="text animate-fade-up"
                 style={{ animationDelay: "0.3s" }}
               >
-                Our expertise spans corporate training, vocational education,
-                career development programs, online and offline learning,
-                internships, apprenticeships, and consultancy services. We focus
-                on building industry-relevant skills that enhance employability,
-                productivity, and professional growth in India and globally.
+                Our services include corporate training, business development, branding,
+                management consultancy, career counseling, admission services, vocational
+                education, apprenticeships, internships, career development programs, and
+                placement services. We focus on blending academic knowledge with practical
+                skills for real-world impact.
               </div>
 
-              <ul
-                className="list-style-one animate-fade-up"
-                style={{ animationDelay: "0.4s" }}
-              >
-                <li>Professional training and corporate skill development</li>
-                <li>Educational, vocational, and career-focused programs</li>
-                <li>Consultancy, certification courses, and institutional support</li>
+              <ul className="list-style-one animate-fade-up" style={{ animationDelay: "0.4s" }}>
+                <li>Global training & skill development for institutions and corporates</li>
+                <li>Comprehensive career counseling and vocational education programs</li>
+                <li>Educational consultancy, certification courses, and institutional support</li>
+                <li>Research, publication, and educational materials development</li>
               </ul>
             </div>
           </div>

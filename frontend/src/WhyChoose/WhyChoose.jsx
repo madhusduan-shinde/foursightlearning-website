@@ -9,23 +9,23 @@ const WhyChoose = () => {
   const points = [
     {
       number: "01",
-      title: "Tailor-Made Programs",
-      text: "Customized solutions designed to meet your unique organizational needs and learning goals.",
+      title: "Global Training & Consultancy",
+      text: "Professional training and consultancy services for educational institutions, corporates, and government bodies worldwide.",
     },
     {
       number: "02",
-      title: "Practical Training Methods",
-      text: "Hands-on, real-world approaches that ensure immediate application and lasting results.",
+      title: "Comprehensive Career Development",
+      text: "End-to-end solutions including counseling, admissions, internships, apprenticeships, and placement services.",
     },
     {
       number: "03",
-      title: "Experienced Trainers",
-      text: "Led by seasoned professionals with years of proven expertise across multiple sectors.",
+      title: "Educational Institution Support",
+      text: "Establishing, managing, and supporting educational institutes, diploma, and certification courses.",
     },
     {
       number: "04",
-      title: "Sustainable Growth Focus",
-      text: "We emphasize measurable outcomes and long-term capability building for your teams.",
+      title: "Research & Development Focus",
+      text: "Developing educational tools, publications, and conducting research to advance learning methodologies.",
     },
   ];
 
