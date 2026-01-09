@@ -151,6 +151,29 @@
   font-size: 15px;
 }
 
+.amenity-icon-item .icon {
+  color: #02a75a;
+  background: linear-gradient(
+    135deg,
+    rgba(2, 167, 90, 0.12),
+    rgba(2, 158, 157, 0.12)
+  );
+  width: 80px;
+  height: 80px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.amenity-icon-item:hover .icon {
+  transform: translateY(-6px) scale(1.06);
+  box-shadow: 0 12px 28px rgba(2, 167, 90, 0.28);
+}
+
+
 /* Responsive */
 @media (max-width: 768px) {
   .room-title {

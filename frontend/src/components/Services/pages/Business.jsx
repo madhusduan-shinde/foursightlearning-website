@@ -1,7 +1,18 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import "./Corporate.css";
-import roomImage from "../../../images/BusinessSector.avif";
+import roomImage from "../../../images/2.jpg";
+
+import {
+  LuLightbulb,
+  LuUsers,
+  LuWallet,
+  LuTarget,
+  LuBriefcase,
+  LuUserCheck,
+  LuTrendingUp,
+} from "react-icons/lu";
+
 
 const fadeInDown = {
   hidden: { opacity: 0, y: 100 },
@@ -23,14 +34,36 @@ const amenitiesList = [
 ];
 
 const amenitiesIcons = [
-  { icon: <svg width="48" height="48" fill="#02a75a"><path d="M4 4h16v16H4z"/></svg>, label: "ENTREPRENEURIAL DEVELOPMENT" },
-  { icon: <svg width="48" height="48" fill="#02a75a"><circle cx="12" cy="12" r="6"/></svg>, label: "CUSTOMER ENGAGEMENT" },
-  { icon: <svg width="48" height="48" fill="#02a75a"><path d="M8 8h8v8H8z"/></svg>, label: "FINANCIAL LITERACY" },
-  { icon: <svg width="48" height="48" fill="#02a75a"><path d="M3 3h18v2H3zM3 19h18v2H3zM3 5v14l9-7z"/></svg>, label: "STRATEGY & PLANNING" },
-  { icon: <svg width="48" height="48" fill="#02a75a"><circle cx="12" cy="12" r="3"/></svg>, label: "PRACTICAL PROJECTS" },
-  { icon: <svg width="48" height="48" fill="#02a75a"><rect x="5" y="5" width="14" height="14"/></svg>, label: "INDUSTRY MENTORSHIP" },
-  { icon: <svg width="48" height="48" fill="#02a75a"><path d="M4 4h16v16H4z"/></svg>, label: "CONTINUOUS GROWTH" },
+  {
+    icon: <LuLightbulb size={42} />,
+    label: "ENTREPRENEURIAL DEVELOPMENT",
+  },
+  {
+    icon: <LuUsers size={42} />,
+    label: "CUSTOMER ENGAGEMENT",
+  },
+  {
+    icon: <LuWallet size={42} />,
+    label: "FINANCIAL LITERACY",
+  },
+  {
+    icon: <LuTarget size={42} />,
+    label: "STRATEGY & PLANNING",
+  },
+  {
+    icon: <LuBriefcase size={42} />,
+    label: "PRACTICAL PROJECTS",
+  },
+  {
+    icon: <LuUserCheck size={42} />,
+    label: "INDUSTRY MENTORSHIP",
+  },
+  {
+    icon: <LuTrendingUp size={42} />,
+    label: "CONTINUOUS GROWTH",
+  },
 ];
+
 
 const BusinessSector = () => {
   const containerRef = useRef(null);
@@ -80,7 +113,7 @@ const BusinessSector = () => {
       </motion.div>
 
       <motion.div className="amenities-section" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInDown}>
-        <h2 className="amenities-title">Why Choose Us</h2>
+        <h2 className="amenities-title">Our Value Proposition</h2>
         <div className="amenities-icons-grid">
           {amenitiesIcons.map(({ icon, label }, idx) => (
             <motion.div key={idx} className="amenity-icon-item" custom={idx} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInDown}>

@@ -2,6 +2,16 @@ import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import "./Education.css";
 import roomImage from "../../../images/EducationSector.avif";
+import {
+  LuGraduationCap,
+  LuBriefcase,
+  LuBookOpen,
+  LuPresentation,
+  LuUserCheck,
+  LuSettings,
+  LuRefreshCcw,
+} from "react-icons/lu";
+
 
 const fadeInDown = {
   hidden: { opacity: 0, y: 100 },
@@ -23,14 +33,36 @@ const amenitiesList = [
 ];
 
 const amenitiesIcons = [
-  { icon: <svg width="48" height="48" fill="#02a75a"><circle cx="12" cy="12" r="6"/></svg>, label: "FACULTY TRAINING" },
-  { icon: <svg width="48" height="48" fill="#02a75a"><path d="M4 4h16v16H4z"/></svg>, label: "STUDENT EMPLOYABILITY" },
-  { icon: <svg width="48" height="48" fill="#02a75a"><path d="M8 8h8v8H8z"/></svg>, label: "CAREER SKILLS" },
-  { icon: <svg width="48" height="48" fill="#02a75a"><path d="M3 3h18v2H3zM3 19h18v2H3zM3 5v14l9-7z"/></svg>, label: "WORKSHOPS & SEMINARS" },
-  { icon: <svg width="48" height="48" fill="#02a75a"><circle cx="12" cy="12" r="3"/></svg>, label: "MENTORSHIP" },
-  { icon: <svg width="48" height="48" fill="#02a75a"><rect x="5" y="5" width="14" height="14"/></svg>, label: "CUSTOMIZED PROGRAMS" },
-  { icon: <svg width="48" height="48" fill="#02a75a"><path d="M4 4h16v16H4z"/></svg>, label: "CONTINUOUS IMPROVEMENT" },
+  {
+    icon: <LuGraduationCap size={42} />,
+    label: "FACULTY TRAINING",
+  },
+  {
+    icon: <LuBriefcase size={42} />,
+    label: "STUDENT EMPLOYABILITY",
+  },
+  {
+    icon: <LuBookOpen size={42} />,
+    label: "CAREER SKILLS",
+  },
+  {
+    icon: <LuPresentation size={42} />,
+    label: "WORKSHOPS & SEMINARS",
+  },
+  {
+    icon: <LuUserCheck size={42} />,
+    label: "MENTORSHIP",
+  },
+  {
+    icon: <LuSettings size={42} />,
+    label: "CUSTOMIZED PROGRAMS",
+  },
+  {
+    icon: <LuRefreshCcw size={42} />,
+    label: "CONTINUOUS IMPROVEMENT",
+  },
 ];
+
 
 const EducationSector = () => {
   const containerRef = useRef(null);
@@ -80,7 +112,7 @@ const EducationSector = () => {
       </motion.div>
 
       <motion.div className="amenities-section" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInDown}>
-        <h2 className="amenities-title">Why Choose Us</h2>
+        <h2 className="amenities-title">Our Value Proposition</h2>
         <div className="amenities-icons-grid">
           {amenitiesIcons.map(({ icon, label }, idx) => (
             <motion.div key={idx} className="amenity-icon-item" custom={idx} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInDown}>

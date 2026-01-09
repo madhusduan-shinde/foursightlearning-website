@@ -16,3 +16,28 @@
 .education-card:hover {
   transform: translateY(-10px);
 }
+
+.amenity-icon-item .icon {
+  color: #02a75a;
+  background: rgba(2, 167, 90, 0.1);
+  width: 80px;
+  height: 80px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.amenity-icon-item:hover .icon {
+  transform: translateY(-6px) scale(1.05);
+  box-shadow: 0 10px 25px rgba(2, 167, 90, 0.25);
+}
+
+.amenity-icon-item .label {
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.6px;
+  text-align: center;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import useScrollAnimation from "../../useScrollAnimation";
-import img6 from "../../images/6.jpeg";
+import img6 from "../../images/6.jpg";
 import img7 from "../../images/7.jpeg";
 
 const About = () => {

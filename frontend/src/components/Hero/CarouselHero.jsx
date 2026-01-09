@@ -8,21 +8,24 @@ import img3 from "../../images/s2.jpeg";
 const slidesData = [
   {
     img: img1,
-    title: "Explore the Wilderness",
-    text: "Discover breathtaking landscapes.",
-    button: "View Gallery",
+    title: "Empowering Skills",
+    text: "Training that builds real capabilities.",
+    button: "Our Services",
+    link: "#services-section",
   },
   {
     img: img2,
-    title: "Future of Technology",
-    text: "Innovations that change the world.",
-    button: "Learn More",
+    title: "Learning for Growth",
+    text: "Workshops and consultancy that drive impact.",
+    button: "Why FourSight",
+    link: "#why-foursight-section",
   },
   {
     img: img3,
-    title: "Creative Spaces",
-    text: "Find your next inspiration.",
-    button: "Get Started",
+    title: "Future-Ready Careers",
+    text: "Bridging education with practical skills.",
+    button: "Get in Touch",
+    link: "#contact-section",
   },
 ];
 
@@ -75,9 +78,10 @@ const CarouselHero = () => {
             <div className="slide-content">
               <h1>{slide.title}</h1>
               <p>{slide.text}</p>
-              <a href="#" className="cta-button">
-                {slide.button}
-              </a>
+              <a href={slide.link} className="cta-button">
+  {slide.button}
+</a>
+
             </div>
           </div>
         ))}

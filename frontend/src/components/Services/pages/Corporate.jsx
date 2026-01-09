@@ -2,6 +2,16 @@ import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import "./Corporate.css";
 import roomImage from "../../../images/CoperateSector.avif";
+import {
+  LuCrown,
+  LuMessageSquare,
+  LuGauge,
+  LuUsers,
+  LuUserCog,
+  LuBuilding2,
+  LuTrendingUp,
+} from "react-icons/lu";
+
 
 // ✅ Section animation (Top → Down)
 const fadeInDown = {
@@ -23,67 +33,37 @@ const amenitiesList = [
   "Continuous growth through mentorship and feedback.",
 ];
 
-// ✅ Unique SVG icons
 const amenitiesIcons = [
   {
-    icon: (
-      <svg width="48" height="48" fill="#02a75a" viewBox="0 0 24 24">
-        <path d="M12 2L15 8H9L12 2ZM12 22V10" />
-        <circle cx="12" cy="19" r="2" />
-      </svg>
-    ),
+    icon: <LuCrown size={42} />,
     label: "LEADERSHIP TRAINING",
   },
   {
-    icon: (
-      <svg width="48" height="48" fill="#02a75a" viewBox="0 0 24 24">
-        <path d="M21 6H3v12h18V6ZM5 8h14v8H5V8Zm3 9v2H4v-2h4Zm8 0h4v2h-4v-2Z" />
-      </svg>
-    ),
+    icon: <LuMessageSquare size={42} />,
     label: "COMMUNICATION SKILLS",
   },
   {
-    icon: (
-      <svg width="48" height="48" fill="#02a75a" viewBox="0 0 24 24">
-        <path d="M4 4h16v2H4zm0 7h10v2H4zm0 7h16v2H4z" />
-      </svg>
-    ),
+    icon: <LuGauge size={42} />,
     label: "PRODUCTIVITY BOOST",
   },
   {
-    icon: (
-      <svg width="48" height="48" fill="#02a75a" viewBox="0 0 24 24">
-        <path d="M12 2l3 5h5l-4 4 2 7-6-4-6 4 2-7-4-4h5z" />
-      </svg>
-    ),
+    icon: <LuUsers size={42} />,
     label: "TEAM COLLABORATION",
   },
   {
-    icon: (
-      <svg width="48" height="48" fill="#02a75a" viewBox="0 0 24 24">
-        <circle cx="12" cy="8" r="4" />
-        <path d="M4 22c0-4 16-4 16 0v1H4v-1z" />
-      </svg>
-    ),
+    icon: <LuUserCog size={42} />,
     label: "EXECUTIVE COACHING",
   },
   {
-    icon: (
-      <svg width="48" height="48" fill="#02a75a" viewBox="0 0 24 24">
-        <path d="M2 4h20v2H2zM2 10h14v2H2zM2 16h20v2H2zM2 22h8v2H2z" />
-      </svg>
-    ),
+    icon: <LuBuilding2 size={42} />,
     label: "CULTURE DEVELOPMENT",
   },
   {
-    icon: (
-      <svg width="48" height="48" fill="#02a75a" viewBox="0 0 24 24">
-        <path d="M12 2a10 10 0 0 0 0 20 10 10 0 0 0 0-20Zm1 15h-2v-6h2v6Zm0-8h-2V7h2v2Z" />
-      </svg>
-    ),
+    icon: <LuTrendingUp size={42} />,
     label: "GROWTH MINDSET PROGRAMS",
   },
 ];
+
 
 const CorporateSector = () => {
   const containerRef = useRef(null);
@@ -168,7 +148,7 @@ const CorporateSector = () => {
         viewport={{ once: true }}
         variants={fadeInDown}
       >
-        <h2 className="amenities-title">Why Choose Us</h2>
+        <h2 className="amenities-title">Our Value Proposition</h2>
         <div className="amenities-icons-grid">
           {amenitiesIcons.map(({ icon, label }, idx) => (
             <motion.div

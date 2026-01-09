@@ -2,6 +2,16 @@ import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import "./Corporate.css";
 import roomImage from "../../../images/GovernmentSector.avif";
+import {
+  LuBuilding,
+  LuMonitorSmartphone,
+  LuScale,
+  LuPresentation,
+  LuFileText,
+  LuSlidersHorizontal,
+  LuLeaf,
+} from "react-icons/lu";
+
 
 const fadeInDown = {
   hidden: { opacity: 0, y: 100 },
@@ -23,14 +33,36 @@ const amenitiesList = [
 ];
 
 const amenitiesIcons = [
-  { icon: <svg width="48" height="48" fill="#02a75a"><rect x="4" y="4" width="16" height="16"/></svg>, label: "CAPACITY BUILDING" },
-  { icon: <svg width="48" height="48" fill="#02a75a"><circle cx="12" cy="12" r="6"/></svg>, label: "DIGITAL LITERACY" },
-  { icon: <svg width="48" height="48" fill="#02a75a"><path d="M8 8h8v8H8z"/></svg>, label: "PROFESSIONAL ETHICS" },
-  { icon: <svg width="48" height="48" fill="#02a75a"><path d="M3 3h18v2H3zM3 19h18v2H3zM3 5v14l9-7z"/></svg>, label: "WORKSHOPS & SEMINARS" },
-  { icon: <svg width="48" height="48" fill="#02a75a"><circle cx="12" cy="12" r="3"/></svg>, label: "POLICY IMPROVEMENT" },
-  { icon: <svg width="48" height="48" fill="#02a75a"><rect x="5" y="5" width="14" height="14"/></svg>, label: "CUSTOMIZED PROGRAMS" },
-  { icon: <svg width="48" height="48" fill="#02a75a"><path d="M4 4h16v16H4z"/></svg>, label: "SUSTAINABLE IMPACT" },
+  {
+    icon: <LuBuilding size={42} />,
+    label: "CAPACITY BUILDING",
+  },
+  {
+    icon: <LuMonitorSmartphone size={42} />,
+    label: "DIGITAL LITERACY",
+  },
+  {
+    icon: <LuScale size={42} />,
+    label: "PROFESSIONAL ETHICS",
+  },
+  {
+    icon: <LuPresentation size={42} />,
+    label: "WORKSHOPS & SEMINARS",
+  },
+  {
+    icon: <LuFileText size={42} />,
+    label: "POLICY IMPROVEMENT",
+  },
+  {
+    icon: <LuSlidersHorizontal size={42} />,
+    label: "CUSTOMIZED PROGRAMS",
+  },
+  {
+    icon: <LuLeaf size={42} />,
+    label: "SUSTAINABLE IMPACT",
+  },
 ];
+
 
 const GovernmentSector = () => {
   const containerRef = useRef(null);
@@ -80,7 +112,7 @@ const GovernmentSector = () => {
       </motion.div>
 
       <motion.div className="amenities-section" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInDown}>
-        <h2 className="amenities-title">Why Choose Us</h2>
+        <h2 className="amenities-title">Our Value Proposition</h2>
         <div className="amenities-icons-grid">
           {amenitiesIcons.map(({ icon, label }, idx) => (
             <motion.div key={idx} className="amenity-icon-item" custom={idx} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInDown}>
