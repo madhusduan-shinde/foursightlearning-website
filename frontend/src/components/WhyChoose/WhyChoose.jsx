@@ -31,7 +31,7 @@ const WhyChoose = () => {
   ];
 
   return (
-    <section className="whychoose-section" id="services-section">
+    <section className="whychoose-section">
       <div className="container">
         <div className="whychoose-row">
           {/* Content Column */}
