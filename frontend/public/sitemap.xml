@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Home (contains Hero, About, Services, Contact sections) -->
+  <url>
+    <loc>https://www.foursightlearning.com/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Service Pages -->
+  <url>
+    <loc>https://www.foursightlearning.com/education</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.foursightlearning.com/business</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.foursightlearning.com/corporate</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.foursightlearning.com/government</loc>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
