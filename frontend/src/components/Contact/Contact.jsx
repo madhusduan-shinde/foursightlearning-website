@@ -3,7 +3,7 @@ import "../Contact/Contact.css";
 import { FaWhatsapp, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
 const Contact = () => {
-  const whatsappNumber = "9148798244";
+  const whatsappNumber = "+919902339311";
   const callNumber = "9844762311";
   const email = "info@foursightlearning.com";
   
@@ -54,7 +54,7 @@ const Contact = () => {
                     rel="noopener noreferrer"
                     className="method-link"
                   >
-                    +91 91487 98244
+                    +91 9902339311
                   </a>
                 </div>
               </div>
