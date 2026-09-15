@@ -50,7 +50,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               aria-label="WhatsApp"
             >
-              +91 9148798244
+              +91 9902339311
             </a>
           </div>
 
