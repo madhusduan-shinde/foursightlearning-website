@@ -4,7 +4,7 @@ import bgImage from "../../images/BgImage.avif";
 import { FaWhatsapp, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 
 const Footer = () => {
-  const whatsappNumber = "9902339311";
+  const whatsappNumber = "+919902339311";
   const callNumber = "9844762311"; // New call number
   const whatsappMessage = "Hello FourSight Learning, I'd like to know more about your training programs.";
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
