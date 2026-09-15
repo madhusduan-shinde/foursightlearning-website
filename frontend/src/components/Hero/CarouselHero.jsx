@@ -42,7 +42,7 @@ const CarouselHero = () => {
     return () => clearInterval(interval);
   }, [currentSlide]);
 
-  const whatsappNumber = "9148798244";
+  const whatsappNumber = "+919902339311";
   const whatsappMessage = "Hello FourSight Learning, I'd like to know more about your training programs.";
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
